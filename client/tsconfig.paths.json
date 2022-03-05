@@ -2,6 +2,7 @@
     "compilerOptions": {
         "baseUrl": "./src",
         "paths": {
+            "@THREE/*": ["./THREE/*"],
             "@Atoms/*": ["./Components/Atoms/*"],
             "@Molecules/*": ["./Components/Molecules/*"],
             "@Organisms/*": ["./Components/Organisms/*"],
@@ -13,7 +14,7 @@
             "@Type/*": ["./Common/Type/*"],
             "@API/*": ["./API/*"],
             "@Route/*": ["./Routes/*"],
-            "@Recoil/*": ["./Recoil/*"],
+            "@Recoils/*": ["./Recoils/*"],
             "@src/*": ["./*"]
         }
     }

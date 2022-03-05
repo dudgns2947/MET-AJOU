@@ -3,6 +3,7 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
+        "@react-three/cannon": "^4.7.0",
         "@react-three/drei": "^8.9.0",
         "@react-three/fiber": "^7.0.26",
         "@testing-library/jest-dom": "^5.16.2",
@@ -50,6 +51,7 @@
         ]
     },
     "devDependencies": {
+        "@types/recoil": "^0.0.9",
         "@types/three": "^0.137.0",
         "@typescript-eslint/eslint-plugin": "^5.12.0",
         "@typescript-eslint/parser": "^5.12.0",
